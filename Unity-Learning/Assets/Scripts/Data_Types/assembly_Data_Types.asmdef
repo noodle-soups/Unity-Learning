@@ -1,0 +1,16 @@
+{
+    "name": "assembly_Data_Types",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f9b8a835bc453649a3d7719f51403b2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
