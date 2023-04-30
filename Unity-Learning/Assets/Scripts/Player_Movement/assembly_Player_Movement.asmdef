@@ -1,12 +1,10 @@
 {
-    "name": "NewAssembly",
+    "name": "assembly_Player_Movement",
     "rootNamespace": "",
     "references": [
-        "GUID:66497feaa933eb94e9fa9d6ec93ef485"
+        "GUID:2f9b8a835bc453649a3d7719f51403b2"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
