@@ -7,7 +7,8 @@ public class Player_Movement : MonoBehaviour
 
 
     // Fields
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
+    private Animator animate;
     private float move_speed;
     private float jump_force;
     private bool is_jumping;
@@ -21,6 +22,7 @@ public class Player_Movement : MonoBehaviour
     {
 
         rb = gameObject.GetComponent<Rigidbody2D>();
+        animate = gameObject.GetComponent<Animator>();
         move_speed = 3f;
         jump_force = 60f;
         is_jumping = false;
@@ -35,7 +37,9 @@ public class Player_Movement : MonoBehaviour
 
         move_horizontal = Input.GetAxisRaw("Horizontal");
         move_vertical = Input.GetAxisRaw("Vertical");
-   
+
+        animate.SetFloat("Speed", Mathf.Abs(move_horizontal));
+
     }
 
 
